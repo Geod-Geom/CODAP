@@ -86,10 +86,16 @@
 }
 
 .Login .Container .Language,
+.Login .Container .Language,
 .Login .Container .Tutorial {
 	height	: 35px;
 	width : 100%;
     padding: 0px;
+}
+
+.Login .Container .Language {
+    position: absolute;
+	right : 0px;
 }
 
 .Login .Container .Language {
@@ -106,6 +112,8 @@
 .Login .Container .Language {
     /*cursor: not-allowed;*/
 }
+
+
 
 .Login .Container .UserInfo {
 	padding : 15px 15px 15px 15px;

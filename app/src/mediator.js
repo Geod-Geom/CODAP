@@ -20,6 +20,7 @@ r.define(["Api/util/lang",
 				this.Controller("Settings").on("ControllerModelChange", this.onSettingsController_ModelChange.bind(this));
 				this.Controller("POI").on("ControllerModelChange", this.onPOIController_ModelChange.bind(this));
 				this.Controller("Building").on("ControllerModelChange", this.onBuildingController_ModelChange.bind(this));
+				this.Controller("Landuse").on("ControllerModelChange", this.onLanduseController_ModelChange.bind(this));
 				
 				// collapsibleClicked
 				
@@ -27,6 +28,7 @@ r.define(["Api/util/lang",
 				this.View("Settings").on("viewCollapsed", this.onMainSubViewCollapsible_Click.bind(this));
 				this.View("POI").on("viewCollapsed", this.onMainSubViewCollapsible_Click.bind(this));
 				this.View("Building").on("viewCollapsed", this.onMainSubViewCollapsible_Click.bind(this));
+				this.View("Landuse").on("viewCollapsed", this.onMainSubViewCollapsible_Click.bind(this));
 			},
 			
 			onMainSubViewCollapsible_Click : function(ev) {
@@ -61,6 +63,12 @@ r.define(["Api/util/lang",
 					this.SetActiveView("Building");
 					this.View("Building").ShowBuilding();
 				}
+				
+				if (ev.model.Mode === "Landuse") {
+					this.Controller("Landuse").model.Landuse = ev.model.Selected;
+					this.SetActiveView("Landuse");
+					this.View("Landuse").ShowLanduse();
+				}
 			},
 			
 			onPOIController_ModelChange : function(ev) {
@@ -77,6 +85,14 @@ r.define(["Api/util/lang",
 				if (ev.model.Active) this.Controller("Map").model.Mode = "Building";
 				
 				if (!ev.model.Building) this.Controller("Map").ClearMap();
+			},
+			
+			onLanduseController_ModelChange : function(ev) {
+				if (ev.origin !== "Landuse") return;
+				
+				if (ev.model.Active) this.Controller("Map").model.Mode = "Landuse";
+				
+				if (!ev.model.Landuse) this.Controller("Map").ClearMap();
 			},
 			
 			onMainController_ModelChange : function(ev) {

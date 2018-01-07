@@ -25,7 +25,7 @@
 }
 
 .Main.View .Menu .Buttons > * {
-	width:20%;
+	width:16.6%;
 	height:100%;
 	border:none;
 	
@@ -60,6 +60,10 @@
 
 .Main.View .Menu .Buttons .Building {
 	background-image: url(../assets/building.png);
+}
+
+.Main.View .Menu .Buttons .Landuse {
+	background-image: url(../assets/landuse.png);
 }
 
 .Main.View .Menu .Buttons .Ranking {

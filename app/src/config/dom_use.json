@@ -1,0 +1,5 @@
+{
+	"used"            	  : { "fr" : "Utilisé", "it" : "Utilizzato", "en" : "Used" },
+	"unused"              : { "fr" : "Inutilisé", "it" : "Inutilizzato", "en" : "Unused" },
+	"partially"           : { "fr" : " Partiellement", "it" : "Parzialmente utilizzato", "en" : "Partially" }
+}

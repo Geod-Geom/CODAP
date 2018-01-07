@@ -1,0 +1,157 @@
+.Landuse.View {	
+    bottom	: 0px;
+    left	: 0px;
+    right	: 0px;
+
+	padding-left : 10px;
+	padding-right : 10px;
+}
+
+.Landuse.View .Page.One {
+	text-align 	: left;
+    width		: 100%;
+	display 	: table;
+}
+
+.Landuse.View .Page.One.NoData {
+	text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+.Landuse.View .Title {
+	text-align : center;
+	margin: 20px 10px 30px 10px;
+}
+
+.Landuse.View .Page.One .Column {
+    display: table-cell;
+	text-align:left;
+    vertical-align: middle;
+    margin-left: 10px;
+} 
+
+.Landuse.View .Page.One .Column.Left { 
+	width : auto;
+}
+
+.Landuse.View .Page.One .Column.Right { 
+	width : 100px;
+}
+
+.Landuse.View .Page.One .Label,
+.Landuse.View .Page.One .Value {
+	display:inline-block;
+	margin-left: 5px;
+}
+
+.Landuse.View .Page.One .Button.Edit {
+    background-color: #92D36E;
+} 
+
+.Landuse.View .Page.Two * {
+	box-sizing : border-box;
+}
+
+.Landuse.View .Page.Two .Container { 
+	position: absolute;
+    top: 70px;
+    bottom: 50px;
+    left: 10px;
+    right: 5px;
+    overflow-y: auto;
+    padding-right: 5px;
+}
+
+.Landuse.View .Page.Two .Label,
+.Landuse.View .Page.Two .Input,
+.Landuse.View .Page.Two .Combo,
+.Landuse.View .Page.Two .Row {
+	width : 100%;
+}
+
+.Landuse.View .Page.Two .Row > * {
+	width : 50%;
+	display: inline-block;
+} 
+
+.Landuse.View .Page.Two .Gutter > * {
+	width : 100%;
+}
+
+.Landuse.View .Page.Two .Gutter > * {
+	width : 100%;
+}
+
+.Landuse.View .Row .Gutter:not(:first-child) {
+	padding-left : 3px;
+}
+
+.Landuse.View .Row .Gutter:not(:last-child) {
+	padding-right : 3px;
+}
+
+.Landuse.View .Page.Two .Label {
+	margin-top : 8px;
+	margin-bottom : 2px;
+}
+
+.Landuse.View .Page.Two .Input,
+.Landuse.View .Page.Two .Combo,
+.Landuse.View .Page.Two .Row {
+	margin-top : 2px;
+	margin-bottom : 2px;
+}
+
+.Landuse.View .Page.Two .Footer > *{ 
+	margin-top : 8px;
+	margin-bottom : 8px;
+}
+
+.Landuse.View .Page.Two .Footer {
+	width : 100%;
+	text-align:center;
+	margin-top : 20px;
+}
+
+.Landuse.View .Page.Two .Button.Save {
+	background-color : #92D36E;
+	width	: 100%;
+}
+
+.Landuse.View .Page.Two .Button.Delete {
+	background-color : #A8504E;
+}
+
+.Save .Container { 
+    top: 10px;
+    bottom: 40px;
+    left: 0px;
+    right: 0px;
+    z-index: 500;
+    height: 190px;
+	max-width: 300px;
+	
+	width	: 95%;
+	
+    position: absolute;
+    background-color: rgba(99, 30, 28, 0.8);
+    border-radius: 6px;
+    border: solid rgba(255, 255, 255, 0.9) 1.5px;
+    margin: auto auto auto auto;
+}
+
+.Save.Disabled .Icon {
+	background: url(../assets/loading.gif) center;
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+    vertical-align: middle;
+	margin-left: 10px;
+}
+
+.Landuse.View .Page.Two .Button.Save.Disabled {
+	background-color:#559632;
+	box-shadow : none;
+	cursor : not-allowed;
+}

@@ -4,7 +4,8 @@ r.define(["Api/util/lang",
 		  "Api/util/array",
 		  "Api/plugins/domain!App/config/dom_access", 
 		  "Api/plugins/domain!App/config/dom_building",
-          "Api/plugins/domain!App/config/dom_use",		  
+          "Api/plugins/domain!App/config/dom_use",
+          "Api/plugins/domain!App/config/dom_landuse",			  
 		  "App/widgets/info/info"],
     
 	function (Lang,
@@ -13,9 +14,10 @@ r.define(["Api/util/lang",
 			  Dom_Access,
 			  Dom_Building,
 			  Dom_Use,
+			  Dom_Landuse,
 			  InfoWidget) {
 
-		var buildingInfo = Lang.Declare("BuildingInfo", [InfoWidget], { 
+		var landuseInfo = Lang.Declare("LanduseInfo", [InfoWidget], { 
 				
 			Build : function(domNode) {
 				
@@ -37,22 +39,22 @@ r.define(["Api/util/lang",
 				wdgt.LblAccess = this.AddLabel("Accessible", Lang.Nls("Building_LabelAccess"));
 				wdgt.CbxAccess = this.AddCombox("wheelchair", "Access", Dom_Access);
 				
-				wdgt.LblBuilding = this.AddLabel("Planned Use", Lang.Nls("Building_LabelPlanned"));
-				wdgt.CbxBuilding = this.AddCombox("building", "Building", Dom_Building);
-				wdgt.CbxBuilding = this.AddCombox("building", "Building", Dom_Building);
-				wdgt.CbxBuilding = this.AddCombox("building", "Building", Dom_Building);
+				wdgt.LblLanduse = this.AddLabel("Planned Use", Lang.Nls("Building_LabelPlanned"));
+				wdgt.CbxLanduse = this.AddCombox("landuse", "Landuse", Dom_Landuse);
+				wdgt.CbxLanduse = this.AddCombox("landuse", "Landuse", Dom_Landuse);
+				wdgt.CbxLanduse = this.AddCombox("landuse", "Landuse", Dom_Landuse);
 					
-				wdgt.LblBuilding = this.AddLabel("Use Restrictions", Lang.Nls("Building_LabelUse"));
-				wdgt.LblBuilding = this.AddCombox("use", "Use", Dom_Use); 
+				wdgt.LblLanduse = this.AddLabel("Use Restrictions", Lang.Nls("Building_LabelUse"));
+				wdgt.LblLanduse = this.AddCombox("use", "Use", Dom_Use); 
 				
-				wdgt.LblBuilding = this.AddLabel("Effective Use", Lang.Nls("Building_LabelEffectiveUse"));
-				wdgt.CbxBuilding = this.AddCombox("building", "Building", Dom_Building);
-				wdgt.CbxBuilding = this.AddCombox("building", "Building", Dom_Building);
-				wdgt.CbxBuilding = this.AddCombox("building", "Building", Dom_Building);
+				wdgt.LblLanduse = this.AddLabel("Effective Use", Lang.Nls("Building_LabelEffectiveUse"));
+				wdgt.CbxLanduse = this.AddCombox("landuse", "Landuse", Dom_Landuse);
+				wdgt.CbxLanduse = this.AddCombox("landuse", "Landuse", Dom_Landuse);
+				wdgt.CbxLanduse = this.AddCombox("landuse", "Landuse", Dom_Landuse);
 				
 				return wdgt;
 			}
 		})
 		
-		return buildingInfo;
+		return landuseInfo;
 	})

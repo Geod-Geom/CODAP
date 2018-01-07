@@ -10,6 +10,7 @@ r.define(["Api/util/lang",
 		  "App/views/loginView",
 		  "App/views/poiView",
 		  "App/views/buildingView",
+		  "App/views/landuseView",
 		  "App/views/rankingView",
 		  "App/views/settingsView",
 		  "App/controllers/mainController",
@@ -17,6 +18,7 @@ r.define(["Api/util/lang",
 		  "App/controllers/loginController",
 		  "App/controllers/poiController",
 		  "App/controllers/buildingController",
+		  "App/controllers/landuseController",
 		  "App/controllers/rankingController",
 		  "App/controllers/settingsController"],
 
@@ -32,6 +34,7 @@ r.define(["Api/util/lang",
 			  LoginView,
 			  PoiView,
 			  BuildingView,
+			  LanduseView,
 			  RankingView,
 			  SettingsView,
 			  MainController,
@@ -39,6 +42,7 @@ r.define(["Api/util/lang",
 			  LoginController,
 			  PoiController,
 			  BuildingController,
+			  LanduseController,
 			  RankingController,
 			  SettingsController) {
 	
@@ -60,6 +64,7 @@ r.define(["Api/util/lang",
 				mediator.AddController("Login", new LoginController(AppJson));
 				mediator.AddController("POI", new PoiController(AppJson));
 				mediator.AddController("Building", new BuildingController(AppJson));
+				mediator.AddController("Landuse", new LanduseController(AppJson));
 				mediator.AddController("Ranking", new RankingController(AppJson));
 				mediator.AddController("Settings", new SettingsController(AppJson));
 				mediator.AddController("Main", new MainController(AppJson));
@@ -83,6 +88,12 @@ r.define(["Api/util/lang",
 				mediator.AddView("Building", new BuildingView({
 					domNode 	: Dom.Create("div", null, document.body), 
 					controller  : mediator.Controller("Building"),
+					collapsible : "Down"
+				}));
+				
+				mediator.AddView("Landuse", new LanduseView({
+					domNode 	: Dom.Create("div", null, document.body), 
+					controller  : mediator.Controller("Landuse"),
 					collapsible : "Down"
 				}));
 				

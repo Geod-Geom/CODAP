@@ -3,7 +3,9 @@ r.define(["Api/util/lang",
 		  "Api/util/dom",
 		  "Api/util/array",
 		  "Api/plugins/domain!App/config/dom_access", 
-		  "Api/plugins/domain!App/config/dom_building", 
+		  "Api/plugins/domain!App/config/dom_building",
+		  "Api/plugins/domain!App/config/dom_use", 
+		  "Api/plugins/domain!App/config/dom_landuse", 
 		  "Api/components/evented"],
     
 	function (Lang,
@@ -11,6 +13,8 @@ r.define(["Api/util/lang",
 			  Array,
 			  Dom_Access,
 			  Dom_Building,
+			  Dom_Use,
+			  Dom_Landuse,
 			  Evented) {
 
 		var info = Lang.Declare("Info", [Evented], { 

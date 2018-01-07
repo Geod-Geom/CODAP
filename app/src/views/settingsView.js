@@ -101,13 +101,24 @@ r.define(["Api/util/lang",
 				link.innerHTML = Lang.Nls(nls);
 				
 				return link;
-			},
+			},     				  
+			
+			/*onBtnLanguage_Click : function(e) {
+				var lang = (Lang.locale == "en") ? "it" : "en" ;
+				
+				window.open(location.origin + location.pathname + "?locale=" + lang, "_self");
+			},*/
 			
 			onBtnLanguage_Click : function(e) {
-				var lang = (Lang.locale == "en") ? "fr" : "en" ;
+				var lang = null;
+                if (Lang.locale == "en") { lang = "fr"}
+				else if (Lang.locale == "en") {lang = "it"}
+				else if (Lang.locale == "en") {lang = "en"};
 				
 				window.open(location.origin + location.pathname + "?locale=" + lang, "_self");
 			},
+			
+			
 			
 			onLnkPopup_Click : function(popup, ev) {
 				popup.FadeIn();

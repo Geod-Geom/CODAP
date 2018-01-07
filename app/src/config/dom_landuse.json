@@ -1,4 +1,4 @@
-﻿{
+{
 	"residential"               : { "fr" : "Résidentiel", "it" : "Residenziale", "en" : "Residential" },
 	"commercial"            	: { "fr" : "Commercial", "it" : "Commerciale", "en" : "Commercial" },
 	"industrial"            	: { "fr" : "Industriel", "it" : "Industriale", "en" : "Industrial" },
@@ -6,7 +6,8 @@
 	"military"                  : { "fr" : "Militaire", "it" : "Militare", "en" : "Military" },
 	"school"                    : { "fr" : "ècole", "it" : "Scuola", "en" : "School" },
 	"university"                : { "fr" : "Université", "it" : "Università", "en" : "University" },
-	"construction"              : { "fr" : "Construction ", "it" : "In Construzione", "en" : "Construction" },
-	"religious"                 : { "fr" : "Religieux", "it" : "Religioso", "en" : "Religious" },
+	"construction"              : { "fr" : "Construction ", "it" : "In costruzione", "en" : "Construction" },
+	"religious"                 : { "fr" : "Religieux", "it" : "Religiosa", "en" : "Religious" },
 	"public"                    : { "fr" : "Public", "it" : "Servizio Pubblico", "en" : "Public" }
 }
+	

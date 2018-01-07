@@ -1,4 +1,3 @@
-
 r.define(["Api/util/lang",
 		  "Api/util/dom",
 		  "Api/util/animate",
@@ -7,6 +6,7 @@ r.define(["Api/util/lang",
 		  "Api/plugins/domain!App/config/dom_access", 
 		  "Api/plugins/domain!App/config/dom_building", 
 		  "Api/plugins/domain!App/config/dom_use",
+		  "Api/plugins/domain!App/config/dom_landuse",
 		  "App/util/osm", 
 		  "App/components/views/twoStep"],
     
@@ -18,17 +18,18 @@ r.define(["Api/util/lang",
 			  Dom_Access,
 			  Dom_Building,
 			  Dom_Use,
+			  Dom_Landuse,
 			  OSM,
 			  TwoStep) {
 
-		var editBuildingView = Lang.Declare("EditBuildingView", [TwoStep], { 
+		var editLanduseView = Lang.Declare("EditLanduseView", [TwoStep], { 
 			
 			popups : null,
 			
 			info : null,
 			
 			constructor : function() {
-				Dom.AddCss(this.domNode, "Building");	
+				Dom.AddCss(this.domNode, "Landuse");	
 
 				this.popups = {};
 				this.popups.Save = this.BuildSavePopup();
@@ -70,8 +71,8 @@ r.define(["Api/util/lang",
 				page.Col2.Top = Dom.Create("div", { "className":"Column Right" }, page.Data);
 				page.Col2.BtnEdit = Dom.Create("button", { "className":"Button Edit" }, page.Col2.Top);
 				
-				page.NoData.innerHTML = Lang.Nls("Building_LabelNoData");
-				page.Col1.Row1.Label.innerHTML = Lang.Nls("Building_LabelBuilding") + ":";
+				page.NoData.innerHTML = Lang.Nls("Landuse_LabelNoData");
+				page.Col1.Row1.Label.innerHTML = Lang.Nls("Landuse_LabelLanduse") + ":";
 				page.Col2.BtnEdit.innerHTML = Lang.Nls("Building_BtnEdit");
 				
 				page.Col2.BtnEdit.addEventListener("click", this.onBtnEdit_Click.bind(this));
@@ -86,9 +87,9 @@ r.define(["Api/util/lang",
 				page.Title = Dom.Create("div", { "className":"Title" }, page.Top);
 				page.Container = Dom.Create("div", { "className":"Container" }, page.Top);
 				
-				OSM.Index.building.Info = new OSM.Index.building.InfoClass(page.Container);
+				OSM.Index.landuse.Info = new OSM.Index.landuse.InfoClass(page.Container);
 				
-				this.info = OSM.Index.building.Info;
+				this.info = OSM.Index.landuse.Info;
 				
 				var div = Dom.Create("div", { "className":"Footer" }, page.Container);
 				
@@ -96,7 +97,7 @@ r.define(["Api/util/lang",
 				page.BtnSave.innerHTML = Lang.Nls("Building_BtnSave") + '<div class="Icon">';
 				page.BtnSave.addEventListener("click", this.onBtnSave_Click.bind(this));
 				
-				page.Title.innerHTML = Lang.Nls("Building_Title");
+				page.Title.innerHTML = Lang.Nls("Landuse_Title");
 				
 				return page;
 			},
@@ -149,16 +150,16 @@ r.define(["Api/util/lang",
 				this.Steps[0].NoData.style.display = '';
 			},
 			
-			ShowBuilding : function() {
+			ShowLanduse : function() {
 				this.ClearUI();
 				
-				if (!this.controller.model.Building.feature) return;
+				if (!this.controller.model.Landuse.feature) return;
 				
 				this.Steps[0].Data.style.display = '';
 				this.Steps[0].NoData.style.display = 'none';
 				
 				this.Steps[0].Col1.Row2.Value.innerHTML = this.controller.GetAddress();
-				this.Steps[0].Col1.Row1.Value.innerHTML = this.controller.GetTag("building");
+				this.Steps[0].Col1.Row1.Value.innerHTML = this.controller.GetTag("landuse");
 
 				var data = {
 					"addr:street" 		: this.controller.GetTag("addr:street") || "",
@@ -167,7 +168,7 @@ r.define(["Api/util/lang",
 					"note" 				: this.controller.GetTag("note") || "",
 					"source" 			: this.controller.GetTag("source") || "",
 					"fixme" 			: this.controller.GetTag("fixme") || "",
-					"building" 			: this.controller.GetTag("building") || -1,
+					"landuse" 			: this.controller.GetTag("landuse") || -1,
 					"wheelchair" 		: this.controller.GetTag("wheelchair") || -1
 				}
 				
@@ -197,10 +198,10 @@ r.define(["Api/util/lang",
 			},
 			
 			onViewCollapsed : function(ev) {
-				this.controller.model.Building = null;
+				this.controller.model.Landuse = null;
 				this.controller.Deactivate();
 			}
 		})
 		
-		return editBuildingView;
+		return editLanduseView;
 	})

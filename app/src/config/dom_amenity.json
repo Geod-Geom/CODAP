@@ -1,438 +1,547 @@
 {
 	"bar": {
-		"fr": "bar",
+	    "fr": "bar",
+		"it": "bar",
 		"en": "bar"
 	},
 	"bbq": {
-		"fr": "bbq",
+	    "fr": "bbq",
+		"it": "bbq",
 		"en": "bbq"
 	},
 	"biergarten": {
-		"fr": "biergarten",
+	    "fr": "biergarten",
+		"it": "birreria all'aperto",
 		"en": "beer garden"
 	},
 	"cafe": {
-		"fr": "café",
+	    "fr": "café",
+		"it": "caffetteria",
 		"en": "cafe"
 	},
 	"drinking_water": {
-		"fr": "eau à boire",
+	    "fr": "eau à boire",	    
+		"it": "punti d'acqua",
 		"en": "drinking water"
 	},
 	"fast_food": {
-		"fr": "fast food",
+	    "fr": "fast food",
+		"it": "fast food",
 		"en": "fast food"
 	},
 	"food_court": {
-		"fr": "food court",
+	    "fr": "food court",
+		"it": "area di ristorazione",
 		"en": "food court"
 	},
 	"ice_cream": {
-		"fr": "crêmerie",
+	    "fr": "crêmerie",
+		"it": "gelateria",
 		"en": "ice cream"
 	},
 	"pub": {
-		"fr": "pub",
+	    "fr": "pub",
+		"it": "pub",
 		"en": "pub"
 	},
 	"restaurant": {
-		"fr": "restaurant",
+	    "fr": "restaurant",
+		"it": "ristorante",
 		"en": "restaurant"
 	},
 	"college": {
-		"fr": "collège",
+	    "fr": "collège",
+		"it": "college",
 		"en": "college"
 	},
 	"kindergarten": {
-		"fr": "prématernelle",
+	    "fr": "prématernelle",
+		"it": "scuola materna",
 		"en": "kindergarten"
 	},
 	"library": {
-		"fr": "bibliothèque",
+	    "fr": "bibliothèque",
+		"it": "biblioteca",
 		"en": "library"
 	},
 	"public_bookcase": {
-		"fr": "boite à livres",
+	    "fr": "boite à livres",
+		"it": "libreria pubblica",
 		"en": "public bookcase"
 	},
 	"school": {
-		"fr": "école",
+	    "fr": "école",
+		"it": "scuola",
 		"en": "school"
 	},
 	"music_school": {
-		"fr": "école de musique",
+	    "fr": "école de musique",
+		"it": "scuola di musica",
 		"en": "music school"
 	},
 	"driving_school": {
-		"fr": "école de conduite",
+	    "fr": "école de conduite",
+		"it": "scuola guida",
 		"en": "driving school"
 	},
 	"language_school": {
-		"fr": "école de langue",
+	    "fr": "école de langue",
+		"it": "scuola di lingua",
 		"en": "language school"
 	},
 	"university": {
-		"fr": "université",
+	    "fr": "université",
+		"it": "università",
 		"en": "university"
 	},
 	"bicycle_parking": {
-		"fr": "stationnement vélo",
+	    "fr": "stationnement vélo",
+		"it": "parcheggio per biciclette",
 		"en": "bicycle parking"
 	},
 	"bicycle_repair_station": {
-		"fr": "station de réparation de vélo",
+	    "fr": "station de réparation de vélo",
+		"it": "ciclista",
 		"en": "bicycle repair station"
 	},
 	"bicycle_rental": {
-		"fr": "location de vélo",
+	    "fr": "location de vélo",
+		"it": "noleggio biciclette",
 		"en": "bicycle rental"
 	},
 	"boat_rental": {
-		"fr": "location de bateau",
+	    "fr": "location de bateau",
+		"it": "noleggio barca",
 		"en": "boat rental"
 	},
 	"boat_sharing": {
-		"fr": "partage de bateau",
+	    "fr": "partage de bateau",
+		"it": "boat sharing",
 		"en": "boat sharing"
 	},
 	"bus_station": {
-		"fr": "station d'autobus",
+	    "fr": "station d'autobus",
+		"it": "stazione degli autobus",
 		"en": "bus station"
 	},
 	"car_rental": {
-		"fr": "location de voiture",
+	    "fr": "location de voiture",
+		"it": "noleggio auto",
 		"en": "car rental"
 	},
 	"car_sharing": {
-		"fr": "partage de voiture",
+	    "fr": "partage de voiture",
+		"it": "car sharing",
 		"en": "car sharing"
 	},
 	"car_wash": {
 		"fr": "lave-auto",
+		"it": "autolavaggio",
 		"en": "car wash"
 	},
 	"charging_station": {
-		"fr": "station de chargement",
+	    "fr": "station de chargement",
+		"it": "colonnine elettriche",
 		"en": "charging station"
 	},
 	"ferry_terminal": {
-		"fr": "traversier",
+	    "fr": "traversier",
+		"it": "terminal traghetti",
 		"en": "ferry terminal"
 	},
 	"fuel": {
-		"fr": "essence",
+	    "fr": "essence",
+		"it": "stazione di servizio",
 		"en": "fuel"
 	},
 	"grit_bin": {
-		"fr": "grit bin",
+	    "fr": "grit bin",
+		"it": "grit bin",
 		"en": "grit bin"
 	},
 	"motorcycle_parking": {
-		"fr": "stationnement de moto",
+	    "fr": "stationnement de moto",
+		"it": "parcheggio motociclette",
 		"en": "motorcycle parking"
 	},
 	"parking": {
-		"fr": "stationnement",
+	    "fr": "stationnement",
+		"it": "parcheggio",
 		"en": "parking"
 	},
 	"parking_entrance": {
-		"fr": "entrée de stationnement",
+	    "fr": "entrée de stationnement",
+		"it": "entrata parcheggio",
 		"en": "parking entrance"
 	},
 	"parking_space": {
-		"fr": "espace de stationnement",
+	    "fr": "espace de stationnement",
+		"it": "parcheggio",
 		"en": "parking space"
 	},
 	"taxi": {
-		"fr": "taxi",
+	    "fr": "taxi",
+		"it": "taxi",
 		"en": "taxi"
 	},
 	"atm": {
-		"fr": "atm",
+	    "fr": "atm",
+		"it": "bancomat",
 		"en": "atm"
 	},
 	"bank": {
-		"fr": "banque",
+	    "fr": "banque",
+		"it": "banca",
 		"en": "bank"
 	},
 	"bureau_de_change": {
-		"fr": "bureau de change",
+	    "fr": "bureau de change",
+		"it": "cambio valuta",
 		"en": "bureau de change"
 	},
 	"baby_hatch": {
-		"fr": "pouponnière",
+	    "fr": "pouponnière",
+		"it": "asilo nido",
 		"en": "baby hatch"
 	},
 	"clinic": {
-		"fr": "clinique",
+	    "fr": "clinique",
+		"it": "clinica",
 		"en": "clinic"
 	},
 	"dentist": {
-		"fr": "dentiste",
+	    "fr": "dentiste",
+		"it": "dentista",
 		"en": "dentist"
 	},
 	"doctors": {
-		"fr": "docteurs",
+	    "fr": "docteurs",
+		"it": "studio medico",
 		"en": "doctors"
 	},
 	"hospital": {
-		"fr": "hôpital",
+	    "fr": "hôpital",
+		"it": "ospedale",
 		"en": "hospital"
 	},
 	"nursing_home": {
-		"fr": "maison de soins",
+	    "fr": "maison de soins",
+		"it": "casa di cura",
 		"en": "nursing home"
 	},
 	"pharmacy": {
-		"fr": "pharmacie",
+	    "fr": "pharmacie",
+		"it": "farmacia",
 		"en": "pharmacy"
 	},
 	"social_facility": {
-		"fr": "services sociaux",
+	    "fr": "services sociaux",
+		"it": "strutture sociali",
 		"en": "social facility"
 	},
 	"veterinary": {
-		"fr": "vétérinaire",
+	    "fr": "vétérinaire",
+		"it": "veterinario",
 		"en": "veterinary"
 	},
 	"blood_donation": {
-		"fr": "don de sang",
+	    "fr": "don de sang",
+		"it": "centro AVIS",
 		"en": "blood donation"
 	},
 	"arts_centre": {
-		"fr": "centre d'arts",
+	    "fr": "centre d'arts",
+		"it": "centro d'arte",
 		"en": "arts centre"
 	},
 	"brothel": {
-		"fr": "bordel",
+	    "fr": "bordel",
+		"it": "casa di tollerenza",
 		"en": "brothel"
 	},
 	"casino": {
-		"fr": "casino",
+	    "fr": "casino",
+		"it": "casinò",
 		"en": "casino"
 	},
 	"cinema": {
-		"fr": "cinéma",
+	    "fr": "cinéma",
+		"it": "cinema",
 		"en": "cinema"
 	},
 	"community_centre": {
-		"fr": "centre communautaire",
+	    "fr": "centre communautaire",
+		"it": "circolo ricreativo",
 		"en": "community centre"
 	},
 	"fountain": {
-		"fr": "fontaine",
+	    "fr": "fontaine",
+		"it": "fontana",
 		"en": "fountain"
 	},
 	"gambling": {
 		"fr": "gambling",
+		"it": "gambling",
 		"en": "gambling"
 	},
 	"nightclub": {
-		"fr": "club de nuit",
+	    "fr": "club de nuit",
+		"it": "nightclub",
 		"en": "nightclub"
 	},
 	"planetarium": {
-		"fr": "planétarium",
+	    "fr": "planétarium",
+		"it": "planetario",
 		"en": "planetarium"
 	},
 	"social_centre": {
-		"fr": "centre social",
+	    "fr": "centre social",
+		"it": "centro sociale",
 		"en": "social centre"
 	},
 	"stripclub": {
-		"fr": "boîte de striptease",
+	    "fr": "boîte de striptease",
+		"it": "stripclub",
 		"en": "stripclub"
 	},
 	"studio": {
-		"fr": "studio",
+	    "fr": "studio",
+		"it": "studio televisivo o radiofonico",
 		"en": "studio"
 	},
 	"swingerclub": {
-		"fr": "club échangiste",
+	    "fr": "club échangiste",
+		"it": "club di scambisti",
 		"en": "swingerclub"
 	},
 	"theatre": {
-		"fr": "théatre",
+	    "fr": "théatre",
+		"it": "teatro",
 		"en": "theatre"
 	},
 	"animal_boarding": {
-		"fr": "garde d'animaux",
+	    "fr": "garde d'animaux",
+		"it": "pensione per animali",
 		"en": "animal boarding"
 	},
 	"animal_shelter": {
-		"fr": "protection des animaux",
+	    "fr": "protection des animaux",
+		"it": "canile",
 		"en": "animal shelter"
 	},
 	"baking_oven": {
-		"fr": "four à cuisson",
+	    "fr": "four à cuisson",
+		"it": "forno",
 		"en": "baking oven"
 	},
 	"bench": {
-		"fr": "banc",
+	    "fr": "banc",
+		"it": "panchina",
 		"en": "bench"
 	},
 	"clock": {
-		"fr": "horloge",
+	    "fr": "horloge",
+		"it": "orologio",
 		"en": "clock"
 	},
 	"courthouse": {
-		"fr": "court municipale",
+	    "fr": "court municipale",
+		"it": "palazzo di giustizia",
 		"en": "courthouse"
 	},
 	"coworking_space": {
-		"fr": "espace de travail commun",
+	    "fr": "espace de travail commun",
+		"it": "spazio di coworking",
 		"en": "coworking space"
 	},
 	"crematorium": {
-		"fr": "crématorium",
+	    "fr": "crématorium",
+		"it": "forno crematorio",
 		"en": "crematorium"
 	},
 	"crypt": {
-		"fr": "crypte",
+	    "fr": "crypte",
+		"it": "cripta",
 		"en": "crypt"
 	},
 	"dive_centre": {
-		"fr": "centre de plongée",
+	    "fr": "centre de plongée",
+		"it": "centro immersioni",
 		"en": "dive centre"
 	},
 	"dojo": {
-		"fr": "dojo",
+	    "fr": "dojo",
+		"it": "palestra di arti marziali",
 		"en": "dojo"
 	},
 	"embassy": {
-		"fr": "ambassade",
+	    "fr": "ambassade",
+		"it": "ambasciata",
 		"en": "embassy"
 	},
 	"fire_station": {
 		"fr": "caserne",
+		"it": "vigili del fuoco",
 		"en": "fire_station"
 	},
 	"firepit": {
-		"fr": "pit à feu",
+	    "fr": "pit à feu",
+		"it": "pit à feu",
 		"en": "firepit"
 	},
 	"game_feeding": {
-		"fr": "game feeding",
+	    "fr": "game feeding",
+		"it": "game feeding",
 		"en": "game feeding"
 	},
 	"grave_yard": {
-		"fr": "cimetière",
+	    "fr": "cimetière",
+		"it": "cimitero",
 		"en": "grave yard"
 	},
 	"gym": {
-		"fr": "gym",
+	    "fr": "gym",
+		"it": "palestra",
 		"en": "gym"
 	},
 	"hunting_stand": {
-		"fr": "cache de chasse",
+	    "fr": "cache de chasse",
+		"it": "cache de chasse",
 		"en": "hunting stand"
 	},
 	"internet_cafe": {
-		"fr": "café internet",
+	    "fr": "café internet",
+		"it": "internet caffè",
 		"en": "internet cafe"
 	},
 	"kneipp_water_cure": {
-		"fr": "soin aquatique kneipp",
+	    "fr": "soin aquatique kneipp",
+		"it": "terme",
 		"en": "kneipp water cure"
 	},
 	"marketplace": {
-		"fr": "marché",
+	    "fr": "marché",
+		"it": "mercato",
 		"en": "marketplace"
 	},
 	"photo_booth": {
-		"fr": "boîte à photo",
+	    "fr": "boîte à photo",
+		"it": "cabina fototessera",
 		"en": "photo booth"
 	},
 	"place_of_worship": {
-		"fr": "lieu de prière",
+	    "fr": "lieu de prière",
+		"it": "luogo di culto",
 		"en": "place of worship"
 	},
 	"police": {
-		"fr": "police",
+	    "fr": "police",
+		"it": "polizia",
 		"en": "police"
 	},
 	"post_box": {
-		"fr": "boîte postale",
+	    "fr": "boîte postale",
+		"it": "cassetta postale",
 		"en": "post box"
 	},
 	"post_office": {
-		"fr": "bureau de poste",
+	    "fr": "bureau de poste",
+		"it": "ufficio postale",
 		"en": "post office"
 	},
 	"prison": {
-		"fr": "prison",
+	    "fr": "prison",
+		"it": "carcere",
 		"en": "prison"
 	},
 	"public_building": {
-		"fr": "bâtiment public",
+	    "fr": "bâtiment public",
+		"it": "edificio pubblico",
 		"en": "public building"
 	},
 	"ranger_station": {
-		"fr": "station de garde chasse",
+	    "fr": "station de garde chasse",
+		"it": "centro informazione per area naturale",
 		"en": "ranger station"
 	},
 	"recycling": {
-		"fr": "recyclage",
+	    "fr": "recyclage",
+		"it": "ecocentro",
 		"en": "recycling"
 	},
 	"rescue_station": {
-		"fr": "station de sauvetage",
+	    "fr": "station de sauvetage",
+		"it": "protezione civile",
 		"en": "rescue station"
 	},
 	"sanitary_dump_station": {
-		"fr": "station de dépôt sanitaire",
+	    "fr": "station de dépôt sanitaire",
+		"it": "scarico acque reflue camper",
 		"en": "sanitary dump station"
 	},
 	"sauna": {
-		"fr": "sauna",
+	    "fr": "sauna",
+		"it": "sauna",
 		"en": "sauna"
 	},
 	"shelter": {
-		"fr": "abri",
+	    "fr": "abri",
+		"it": "rifugio",
 		"en": "shelter"
 	},
 	"shower": {
-		"fr": "douche",
+	    "fr": "douche",
+		"it": "doccia pubblica",
 		"en": "shower"
 	},
 	"table": {
-		"fr": "table",
+	    "fr": "table",
+		"it": "tavolo",
 		"en": "table"
 	},
 	"telephone": {
-		"fr": "téléphone",
+	    "fr": "téléphone",
+		"it": "cabina telefonica",
 		"en": "telephone"
 	},
 	"toilets": {
-		"fr": "toilettes",
+	    "fr": "toilettes",
+		"it": "toilette",
 		"en": "toilets"
 	},
 	"townhall": {
-		"fr": "hôtel de ville",
+	    "fr": "hôtel de ville",
+		"it": "municipio",
 		"en": "townhall"
 	},
 	"vending_machine": {
-		"fr": "machine distributrice",
+	    "fr": "machine distributrice",
+		"it": "distibutori automatici",
 		"en": "vending machine"
 	},
 	"waste_basket": {
-		"fr": "poubelle",
+	    "fr": "poubelle",
+		"it": "cestino rifiuti",
 		"en": "waste basket"
 	},
 	"waste_disposal": {
-		"fr": "dépotoire",
+	    "fr": "dépotoire",
+		"it": "bidone rifiuti",
 		"en": "waste disposal"
 	},
 	"waste_transfer_station": {
-		"fr": "station de transfert de déchêts",
+	    "fr": "station de transfert de déchêts",
+		"it": "stazione di trasferimento dei rifiuti",
 		"en": "waste transfer station"
 	},
 	"watering_place": {
-		"fr": "espace d'eau",
+	    "fr": "espace d'eau",
+		"it": "abbeveratorio",
 		"en": "watering place"
 	},
 	"water_point": {
-		"fr": "point d'eau",
+	    "fr": "point d'eau",
+		"it": "punti d'acqua",
 		"en": "water point"
 	}
 }

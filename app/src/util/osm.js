@@ -3,14 +3,16 @@ r.define(["Api/util/array",
 		  "Api/util/ajax",
 		  "App/widgets/info/amenity", 
 		  "App/widgets/info/shop", 
-		  "App/widgets/info/building"],
+		  "App/widgets/info/building",
+		  "App/widgets/info/landuse"],
 
 	function (Array,
 			  Lang,
 			  Ajax,
 			  Amenity,
 			  Shop,
-			  Building) {
+			  Building,
+			  Landuse) {
 		
 		var categories = [{
 				Id : "amenity",
@@ -25,6 +27,19 @@ r.define(["Api/util/array",
 			}, {
 				Id : "building",
 				InfoClass : Building,
+				Type : "Polygon",
+				Label : function(f) { 
+					addr = [];
+					
+					if (OsmH.Tag(f, "addr:housenumber")) addr.push(OsmH.Tag(f, "addr:housenumber"));
+					if (OsmH.Tag(f, "addr:street")) addr.push(OsmH.Tag(f, "addr:street"));
+					if (OsmH.Tag(f, "addr:city")) addr.push(OsmH.Tag(f, "addr:city"));
+					
+					return addr.join(", ");
+				}
+			} , {
+				Id : "landuse",
+				InfoClass : Landuse,
 				Type : "Polygon",
 				Label : function(f) { 
 					addr = [];

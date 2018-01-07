@@ -1,598 +1,747 @@
 {
 	"alcohol": {
-		"fr": "alcool",
+	    "fr": "alcool",
+		"it": "alcool",
 		"en": "alcohol"
 	},
 	"bakery": {
-		"fr": "boulangerie",
+	    "fr": "boulangerie",
+		"it": "forno",
 		"en": "bakery"
 	},
 	"beverages": {
-		"fr": "breuvages",
+	    "fr": "breuvages",
+		"it": "bevande",
 		"en": "beverages"
 	},
 	"brewing_supplies": {
-		"fr": "ingrédients de brassage",
+	    "fr": "ingrédients de brassage",
+		"it": "fornitura per birra e vini",
 		"en": "brewing supplies"
 	},
 	"butcher": {
-		"fr": "boucher",
+	    "fr": "boucher",
+		"it": "macellaio",
 		"en": "butcher"
 	},
 	"cheese": {
-		"fr": "fromage",
+	    "fr": "fromage",
+		"it": "formaggio",
 		"en": "cheese"
 	},
 	"chocolate": {
-		"fr": "chocolat",
+	    "fr": "chocolat",
+		"it": "cioccolateria",
 		"en": "chocolate"
 	},
 	"coffee": {
-		"fr": "café",
+	    "fr": "café",
+		"it": "caffè",
 		"en": "coffee"
 	},
 	"confectionery": {
-		"fr": "confiserie",
+	    "fr": "confiserie",
+		"it": "dolciario",
 		"en": "confectionery"
 	},
 	"convenience": {
-		"fr": "dépanneur",
+	    "fr": "dépanneur",
+		"it": "alimentari",
 		"en": "convenience"
 	},
 	"deli": {
-		"fr": "déli",
+	    "fr": "déli",
+		"it": "salumeria",
 		"en": "deli"
 	},
 	"dairy": {
-		"fr": "lait",
+	    "fr": "lait",
+		"it": "caseificio",
 		"en": "dairy"
 	},
 	"farm": {
-		"fr": "ferme",
+	    "fr": "ferme",
+		"it": "fattoria",
 		"en": "farm"
 	},
 	"greengrocer": {
-		"fr": "épicerie verte",
+	    "fr": "épicerie verte",
+		"it": "fruttivendolo",
 		"en": "greengrocer"
 	},
 	"ice_cream": {
-		"fr": "crème glacée",
+	    "fr": "crème glacée",
+		"it": "gelateria",
 		"en": "ice cream"
 	},
 	"organic": {
-		"fr": "organique",
+	    "fr": "organique",
+		"it": "organique",
 		"en": "organic"
 	},
 	"pasta": {
-		"fr": "pâtes",
+	    "fr": "pâtes",
+		"it": "pasta",
 		"en": "pasta"
 	},
 	"pastry": {
-		"fr": "patisserie",
+	    "fr": "patisserie",
+		"it": "pasticceria",
 		"en": "pastry"
 	},
 	"seafood": {
-		"fr": "fruits de mer",
+	    "fr": "fruits de mer",
+		"it": "pescheria",
 		"en": "seafood"
 	},
 	"spices": {
-		"fr": "épices",
+	    "fr": "épices",
+		"it": "spezie",
 		"en": "spices"
 	},
 	"tea": {
-		"fr": "thé",
+	    "fr": "thé",
+		"it": "tè",
 		"en": "tea"
 	},
 	"wine": {
-		"fr": "vin",
+	    "fr": "vin",
+		"it": "vino",
 		"en": "wine"
 	},
 	"department_store": {
-		"fr": "grande surface",
+	    "fr": "grande surface",
+		"it": "grande magazzino",
 		"en": "department store"
 	},
 	"general": {
-		"fr": "général",
+	    "fr": "général",
+		"it": "generale",
 		"en": "general"
 	},
 	"kiosk": {
-		"fr": "kiosque",
+	    "fr": "kiosque",
+		"it": "chiosco",
 		"en": "kiosk"
 	},
 	"mall": {
-		"fr": "centre d'achats",
+	    "fr": "centre d'achats",
+		"it": "centro commerciale",
 		"en": "mall"
 	},
 	"supermarket": {
-		"fr": "supermarché",
+	    "fr": "supermarché",
+		"it": "supermercato",
 		"en": "supermarket"
 	},
 	"baby_goods": {
-		"fr": "objets pour bébés",
+	    "fr": "objets pour bébés",
+		"it": "prodotti per l'infanzia",
 		"en": "baby goods"
 	},
 	"bag": {
-		"fr": "sac",
+	    "fr": "sac",
+		"it": "borsa",
 		"en": "bag"
 	},
 	"boutique": {
-		"fr": "boutique",
+	    "fr": "boutique",
+		"it": "boutique",
 		"en": "boutique"
 	},
 	"clothes": {
-		"fr": "vêtements",
+	    "fr": "vêtements",
+		"it": "abbigliamento",
 		"en": "clothes"
 	},
 	"fabric": {
-		"fr": "fabrique",
+	    "fr": "fabrique",
+		"it": "fabbrica",
 		"en": "fabric"
 	},
 	"fashion": {
 		"fr": "mode",
+		"it": "moda",
 		"en": "fashion"
 	},
 	"jewelry": {
-		"fr": "bijoux",
+	    "fr": "bijoux",
+		"it": "gioielleria",
 		"en": "jewelry"
 	},
 	"leather": {
-		"fr": "cuir",
+	    "fr": "cuir",
+		"it": "pelletteria",
 		"en": "leather"
 	},
 	"sewing": {
-		"fr": "couture",
+	    "fr": "couture",
+		"it": "merceria",
 		"en": "sewing"
 	},
 	"shoes": {
-		"fr": "souliers",
+	    "fr": "souliers",
+		"it": "scarpe",
 		"en": "shoes"
 	},
 	"tailor": {
-		"fr": "couturier",
+	    "fr": "couturier",
+		"it": "sarto",
 		"en": "tailor"
 	},
 	"watches": {
-		"fr": "montres",
+	    "fr": "montres",
+		"it": "orologi",
 		"en": "watches"
 	},
 	"charity": {
-		"fr": "charité",
+	    "fr": "charité",
+		"it": "equo&solidale",
 		"en": "charity"
 	},
 	"second_hand": {
-		"fr": "seconde main",
+	    "fr": "seconde main",
+		"it": "usato",
 		"en": "second hand"
 	},
 	"variety_store": {
-		"fr": "variété",
+	    "fr": "variété",
+		"it": "varietà",
 		"en": "variety store"
 	},
 	"beauty": {
-		"fr": "salon de beauté",
+	   "fr": "salon de beauté",
+		"it": "estetista",
 		"en": "beauty"
 	},
 	"chemist": {
-		"fr": "droguerie",
+	    "fr": "droguerie",
+		"it": "igiene personale",
 		"en": "chemist"
 	},
 	"cosmetics": {
-		"fr": "cosmétiques",
+	    "fr": "cosmétiques",
+		"it": "cosmetici",
 		"en": "cosmetics"
 	},
 	"drugstore": {
-		"fr": "pharmacie",
+	    "fr": "pharmacie",
+		"it": "farmacia",
 		"en": "drugstore"
 	},
 	"erotic": {
-		"fr": "érotique",
+	    "fr": "érotique",
+		"it": "erotico",
 		"en": "erotic"
 	},
 	"hairdresser": {
-		"fr": "coiffeur",
+	    "fr": "coiffeur",
+		"it": "parrucchiere",
 		"en": "hairdresser"
 	},
 	"hairdresser_supply": {
-		"fr": "accessoires de coiffure",
+	    "fr": "accessoires de coiffure",
+		"it": "accessori per parrucchieri",
 		"en": "hairdresser supply"
 	},
 	"hearing_aids": {
-		"fr": "appareils auditifs",
+	    "fr": "appareils auditifs",
+		"it": "apparecchi uditivi",
 		"en": "hearing aids"
 	},
 	"herbalist": {
-		"fr": "herbaliste",
+	    "fr": "herbaliste",
+		"it": "erboristeria",
 		"en": "herbalist"
 	},
 	"massage": {
-		"fr": "massage",
+	    "fr": "massage",
+		"it": "massaggi",
 		"en": "massage"
 	},
 	"medical_supply": {
-		"fr": "accesoires médicaux",
+	    "fr": "accesoires médicaux",
+		"it": "sanitaria",
 		"en": "medical supply"
 	},
 	"nutrition_supplements": {
-		"fr": "suppléments nutritifs",
+	    "fr": "suppléments nutritifs",
+		"it": "parafarmacia",
 		"en": "nutrition supplements"
 	},
 	"optician": {
-		"fr": "opticien",
+	    "fr": "opticien",
+		"it": "ottico",
 		"en": "optician"
 	},
 	"perfumery": {
-		"fr": "parfumerie",
+	    "fr": "parfumerie",
+		"it": "profumeria",
 		"en": "perfumery"
 	},
 	"tattoo": {
-		"fr": "tattoo",
+	    "fr": "tattoo",
+		"it": "tattoo",
 		"en": "tattoo"
 	},
 	"agrarian": {
-		"fr": "agricole",
+	    "fr": "agricole",
+		"it": "agricolo",
 		"en": "agrarian"
 	},
 	"bathroom_furnishing": {
-		"fr": "effets de salle de bain",
+	    "fr": "effets de salle de bain",
+		"it": "fornitura bagni",
 		"en": "bathroom_furnishing"
 	},
 	"doityourself": {
-		"fr": "doityourself",
+	    "fr": "doityourself",
+		"it": "fai da te",
 		"en": "doityourself"
 	},
 	"electrical": {
-		"fr": "électrique",
+	    "fr": "électrique",
+		"it": "forniture elettriche",
 		"en": "electrical"
 	},
 	"energy": {
-		"fr": "énergie",
+	    "fr": "énergie",
+		"it": "energia",
 		"en": "energy"
 	},
 	"fireplace": {
-		"fr": "foyer",
+	    "fr": "foyer",
+		"it": "foyer",
 		"en": "fireplace"
 	},
 	"florist": {
-		"fr": "fleuriste",
+	    "fr": "fleuriste",
+		"it": "fioraio",
 		"en": "florist"
 	},
 	"garden_centre": {
-		"fr": "centre de jardinage",
+	    "fr": "centre de jardinage",
+		"it": "vivaio",
 		"en": "garden centre"
 	},
 	"garden_furniture": {
-		"fr": "accesoires de jardin",
+	    "fr": "accesoires de jardin",
+		"it": "accesori per giardinaggio",
 		"en": "garden furniture"
 	},
 	"gas": {
-		"fr": "gaz",
+	    "fr": "gaz",
+		"it": "gas",
 		"en": "gas"
 	},
 	"glaziery": {
-		"fr": "vitrages",
+	    "fr": "vitrages",
+		"it": "vitraio",
 		"en": "glaziery"
 	},
 	"hardware": {
-		"fr": "quicaillerie",
+	    "fr": "quicaillerie",
+		"it": "ferramenta",
 		"en": "hardware"
 	},
 	"houseware": {
-		"fr": "effets de maison",
+	    "fr": "effets de maison",
+		"it": "casilinghi",
 		"en": "houseware"
 	},
 	"locksmith": {
-		"fr": "serrurier",
+	    "fr": "serrurier",
+		"it": "fabbro",
 		"en": "locksmith"
 	},
 	"paint": {
-		"fr": "peinture",
+	    "fr": "peinture",
+		"it": "vernice",
 		"en": "paint"
 	},
 	"security": {
-		"fr": "sécurité",
+	    "fr": "sécurité",
+		"it": "sicurezza",
 		"en": "security"
 	},
 	"trade": {
-		"fr": "échange",
+	    "fr": "échange",
+		"it": "materiali da costruzione",
 		"en": "trade"
 	},
 	"antiques": {
-		"fr": "antiquités",
+	    "fr": "antiquités",
+		"it": "antiquariato",
 		"en": "antiques"
 	},
 	"bed": {
 		"fr": "literie",
+		"it": "letto",
 		"en": "bed"
 	},
 	"candles": {
 		"fr": "chandelles",
+		"it": "candele",
 		"en": "candles"
 	},
 	"carpet": {
 		"fr": "tapis",
+		"it": "tappeto",
 		"en": "carpet"
 	},
 	"curtain": {
 		"fr": "rideaux",
+		"it": "tenda",
 		"en": "curtain"
 	},
 	"furniture": {
-		"fr": "meubles",
+	    "fr": "meubles",
+		"it": "mobilificio",
 		"en": "furniture"
 	},
 	"interior_decoration": {
 		"fr": "décoration intérieure",
+		"it": "decorazioni interne",
 		"en": "interior decoration"
 	},
 	"kitchen": {
 		"fr": "cuisine",
+		"it": "cucine",
 		"en": "kitchen"
 	},
 	"lamps": {
-		"fr": "lampes",
+	    "fr": "lampes",
+		"it": "lampade",
 		"en": "lamps"
 	},
 	"tiles": {
-		"fr": "tuiles",
+	    "fr": "tuiles",
+		"it": "piastrelle",
 		"en": "tiles"
 	},
 	"window_blind": {
-		"fr": "stores de fenêtres",
+	    "fr": "stores de fenêtres",
+		"it": "tapparelle",
 		"en": "window blind"
 	},
 	"computer": {
-		"fr": "ordinateur",
+	    "fr": "ordinateur",
+		"it": "computer",
 		"en": "computer"
 	},
 	"robot": {
-		"fr": "robot",
+	    "fr": "robot",
+		"it": "robot",
 		"en": "robot"
 	},
 	"electronics": {
-		"fr": "électronique",
+	    "fr": "électronique",
+		"it": "strumenti elettronici",
 		"en": "electronics"
 	},
 	"hifi": {
-		"fr": "hifi",
+	    "fr": "hifi",
+		"it": "hifi",
 		"en": "hifi"
 	},
 	"mobile_phone": {
-		"fr": "téléphone cellulaire",
+	    "fr": "téléphone cellulaire",
+		"it": "cellulari",
 		"en": "mobile phone"
 	},
 	"radiotechnics": {
-		"fr": "radiotechnique",
+	    "fr": "radiotechnique",
+		"it": "forniture per sistemi radio ed elettronici",
 		"en": "radiotechnics"
 	},
 	"vacuum_cleaner": {
-		"fr": "aspirateur",
+	    "fr": "aspirateur",
+		"it": "aspiratori",
 		"en": "vacuum cleaner"
 	},
 	"atv": {
-		"fr": "tout terrain",
+	    "fr": "tout terrain",
+		"it": "quad",
 		"en": "atv"
 	},
 	"bicycle": {
-		"fr": "bicycle",
+	    "fr": "bicycle",
+		"it": "bicicletta",
 		"en": "bicycle"
 	},
 	"boat": {
-		"fr": "bateau",
+	    "fr": "bateau",
+		"it": "barca",
 		"en": "boat"
 	},
 	"car": {
-		"fr": "voiture",
+	    "fr": "voiture",
+		"it": "auto",
 		"en": "car"
 	},
 	"car_repair": {
-		"fr": "réparation de voiture",
+	    "fr": "réparation de voiture",
+		"it": "meccanico",
 		"en": "car repair"
 	},
 	"car_parts": {
-		"fr": "pièces automobiles",
+	    "fr": "pièces automobiles",
+		"it": "accessori per auto",
 		"en": "car parts"
 	},
 	"fuel": {
-		"fr": "essence",
+	    "fr": "essence",
+		"it": "carburante",
 		"en": "fuel"
 	},
 	"fishing": {
-		"fr": "pêche",
+	    "fr": "pêche",
+		"it": "accessori per pesca sportiva",
 		"en": "fishing"
 	},
 	"free_flying": {
-		"fr": "parachutisme",
+	    "fr": "parachutisme",
+		"it": "paracadutismo",
 		"en": "free flying"
 	},
 	"hunting": {
-		"fr": "chasse",
+	    "fr": "chasse",
+		"it": "caccia",
 		"en": "hunting"
 	},
 	"jetski": {
-		"fr": "jetski",
+	    "fr": "jetski",
+		"it": "moto d'acqua",
 		"en": "jetski"
 	},
 	"motorcycle": {
-		"fr": "motocyclette",
+	    "fr": "motocyclette",
+		"it": "motocicletta",
 		"en": "motorcycle"
 	},
 	"outdoor": {
-		"fr": "plein air",
+	    "fr": "plein air",
+		"it": "attrezzatura sportiva",
 		"en": "outdoor"
 	},
 	"scuba_diving": {
-		"fr": "plongée sous marine",
+	    "fr": "plongée sous marine",
+		"it": "immersione",
 		"en": "scuba diving"
 	},
 	"ski": {
-		"fr": "ski",
+	    "fr": "ski",
+		"it": "sci",
 		"en": "ski"
 	},
 	"snowmobile": {
-		"fr": "motoneige",
+	    "fr": "motoneige",
+		"it": "motoslitta",
 		"en": "snowmobile"
 	},
 	"sports": {
-		"fr": "sports",
+	    "fr": "sports",
+		"it": "sport",
 		"en": "sports"
 	},
 	"swimming_pool": {
 		"fr": "piscine",
+		"it": "attrezzatura nuoto",
 		"en": "swimming pool"
 	},
 	"tyres": {
 		"fr": "pneus",
+		"it": "gommista",
 		"en": "tyres"
 	},
 	"art": {
 		"fr": "art",
+		"it": "galleria d'arte",
 		"en": "art"
 	},
 	"collector": {
 		"fr": "collectionneur",
+		"it": "collezionismo",
 		"en": "collector"
 	},
 	"craft": {
 		"fr": "loisirs créatifs",
+		"it": "hobbistica",
 		"en": "craft"
 	},
 	"frame": {
-		"fr": "encadrement",
+	    "fr": "encadrement",
+		"it": "cornici",
 		"en": "frame"
 	},
 	"games": {
-		"fr": "jeux",
+	    "fr": "jeux",
+		"it": "giochi",
 		"en": "games"
 	},
 	"model": {
-		"fr": "modèles",
+	    "fr": "modèles",
+		"it": "modellismo",
 		"en": "model"
 	},
 	"music": {
-		"fr": "musique",
+	    "fr": "musique",
+		"it": "musica",
 		"en": "music"
 	},
 	"musical_instrument": {
 		"fr": "instruments musicaux",
+		"it": "strumenti musicali",
 		"en": "musical instrument"
 	},
 	"photo": {
-		"fr": "photo",
+	    "fr": "photo",
+		"it": "fotografo",
 		"en": "photo"
 	},
 	"camera": {
-		"fr": "caméra",
+	    "fr": "caméra",
+		"it": "negozio di macchine fotografiche",
 		"en": "camera"
 	},
 	"trophy": {
-		"fr": "trophées",
+	    "fr": "trophées",
+		"it": "trofei",
 		"en": "trophy"
 	},
 	"video": {
-		"fr": "vidéo",
+	    "fr": "vidéo",
+		"it": "videoteca",
 		"en": "video"
 	},
 	"video_games": {
-		"fr": "jeux vidéos",
+	    "fr": "jeux vidéos",
+		"it": "videogiochi",
 		"en": "video games"
 	},
 	"anime": {
 		"fr": "animé",
+		"it": "anime",
 		"en": "anime"
 	},
 	"books": {
 		"fr": "livres",
+		"it": "libri",
 		"en": "books"
 	},
 	"gift": {
 		"fr": "cadeaux",
+		"it": "souvenirs",
 		"en": "gift"
 	},
 	"lottery": {
-		"fr": "lotterie",
+	    "fr": "lotterie",
+		"it": "lotteria",
 		"en": "lottery"
 	},
 	"newsagent": {
-		"fr": "journaux",
+	    "fr": "journaux",
+		"it": "giornalaio",
 		"en": "newsagent"
 	},
 	"stationery": {
 		"fr": "matériel de bureau",
+		"it": "materiale da ufficio",
 		"en": "stationery"
 	},
 	"ticket": {
 		"fr": "billeterie",
+		"it": "biglietteria",
 		"en": "ticket"
 	},
 	"bookmaker": {
 		"fr": "boutique à paris",
+		"it": "centro scommesse",
 		"en": "bookmaker"
 	},
 	"copyshop": {
-		"fr": "centre de copies",
+	    "fr": "centre de copies",
+		"it": "copisteria",
 		"en": "copyshop"
 	},
 	"dry_cleaning": {
-		"fr": "nettoyage à sec",
+	    "fr": "nettoyage à sec",
+		"it": "lavanderia a secco",
 		"en": "dry cleaning"
 	},
 	"e-cigarette": {
-		"fr": "cigarette électronique",
+	    "fr": "cigarette électronique",
+		"it": "sigarette elettroniche",
 		"en": "e-cigarette"
 	},
 	"funeral_directors": {
 		"fr": "salon funérarire",
+		"it": "pompe funebri",
 		"en": "funeral directors"
 	},
 	"laundry": {
 		"fr": "buanderie",
+		"it": "lavanderia",
 		"en": "laundry"
 	},
 	"money_lender": {
 		"fr": "prêteur",
+		"it": "prestito",
 		"en": "money lender"
 	},
 	"party": {
 		"fr": "party",
+		"it": "feste",
 		"en": "party"
 	},
 	"pawnbroker": {
 		"fr": "consigne",
+		"it": "banco dei pegni",
 		"en": "pawnbroker"
 	},
 	"pet": {
-		"fr": "animaux",
+	    "fr": "animaux",
+		"it": "animali",
 		"en": "pet"
 	},
 	"pyrotechnics": {
 		"fr": "pyrotechnie",
+		"it": "pirotecnico",
 		"en": "pyrotechnics"
 	},
 	"religion": {
 		"fr": "religion",
+		"it": "articoli religiosi",
 		"en": "religion"
 	},
 	"storage_rental": {
 		"fr": "location d'entrepôts",
+		"it": "magazzino",
 		"en": "storage rental"
 	},
 	"tobacco": {
 		"fr": "tabac",
+		"it": "tabaccaio",
 		"en": "tobacco"
 	},
 	"toys": {
 		"fr": "jouets",
+		"it": "giocattoli",
 		"en": "toys"
 	},
 	"travel_agency": {
 		"fr": "agence de voyage",
+		"it": "agenzia di viaggi",
 		"en": "travel agency"
 	},
 	"vacant": {
 		"fr": "vacant",
+		"it": "sfitto",
 		"en": "vacant"
 	},
 	"weapons": {
-		"fr": "armes",
+	    "fr": "armes",
+		"it": "armi",
 		"en": "weapons"
 	}
 }

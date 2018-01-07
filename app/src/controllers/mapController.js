@@ -42,8 +42,9 @@ r.define(["Api/util/lang",
 				this.model = {
 					Map : this.map,
 					Building : null,
+					Landuse : null,
 					POI : null,
-					Mode : "Building",
+					Mode : ["Building","Landuse"],
 					Geolocating : false
 				};
 			},
@@ -93,8 +94,17 @@ r.define(["Api/util/lang",
 				var radius = this.map.getView().getResolution() * this.options.tolerance;
 				var xy = Project.Point(coordinate[0], coordinate[1], "900913", 4326);
 				
-				var p = (this.model.Mode === "POI") ? Overpass.IdentifyPOI(xy, radius) : Overpass.IdentifyBuilding(xy, radius);
+				/*var p = (this.model.Mode === "POI") ? Overpass.IdentifyPOI(xy, radius) : Overpass.IdentifyBuilding(xy, radius);*/
 				
+			    /*if (var p = (this.model.Mode === "POI")) this.Overpass.IdentifyPOI(xy, radius);
+                else if (this.Overpass.IdentifyBuilding(xy, radius));
+			    else (this.Overpass.IdentifyLanduse(xy, radius));*/
+				
+				var p = null;
+				if (this.model.Mode === "POI")  { p = Overpass.IdentifyPOI(xy, radius)}
+				else if (this.model.Mode === "Building") { p = Overpass.IdentifyBuilding(xy, radius)}
+				else if (this.model.Mode === "Landuse") {p = Overpass.IdentifyLanduse(xy, radius)};
+                 				  
 				p.then(this.onMap_FeaturesIdentified.bind(this, coordinate), this.onMap_Error.bind(this));
 			},
 			
@@ -108,6 +118,8 @@ r.define(["Api/util/lang",
 				if (this.model.Mode === "POI" && !this.model.Selected.feature) this.AddPOI(coordinate);
 
 				else if (this.model.Mode === "Building" && this.model.Selected.feature) this.AddBuilding(this.model.Selected.feature);
+				
+				else if (this.model.Mode === "Landuse" && this.model.Selected.feature) this.AddLanduse(this.model.Selected.feature);
 				
 				this.NotifyViewNewModel("Map");
 			},
@@ -140,6 +152,12 @@ r.define(["Api/util/lang",
 				building.setStyle(Styles["Polygon"]);
 				
 				this.AddFeature(building);
+			},
+			
+			AddLanduse : function(landuse) {
+				landuse.setStyle(Styles["Polygon"]);
+				
+				this.AddFeature(landuse);
 			},
 			
 			AddPOI : function(coordinate) {

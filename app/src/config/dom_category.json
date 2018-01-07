@@ -1,4 +1,4 @@
 {
-	"amenity"            	: { "fr" : "Service", "en" : "Amenity" },
-	"shop"            		: { "fr" : "Magasin", "en" : "Shop" }
+	"amenity"            	: { "fr" : "Service", "it" : "Servizi", "en" : "Amenity" },
+	"shop"            		: { "fr" : "Magasin", "it" : "Negozio", "en" : "Shop" }
 }
