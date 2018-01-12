@@ -103,17 +103,12 @@ r.define(["Api/util/lang",
 				return link;
 			},     				  
 			
-			/*onBtnLanguage_Click : function(e) {
-				var lang = (Lang.locale == "en") ? "it" : "en" ;
-				
-				window.open(location.origin + location.pathname + "?locale=" + lang, "_self");
-			},*/
 			
 			onBtnLanguage_Click : function(e) {
 				var lang = null;
-                if (Lang.locale == "en") { lang = "fr"}
-				else if (Lang.locale == "en") {lang = "it"}
-				else if (Lang.locale == "en") {lang = "en"};
+				if (Lang.locale === "en" ) {lang = "it"}
+				else if  (Lang.locale === "it") {lang = "fr"}
+				else {lang = "en"};
 				
 				window.open(location.origin + location.pathname + "?locale=" + lang, "_self");
 			},
