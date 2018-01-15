@@ -60,26 +60,17 @@ r.define(["Api/util/lang",
 				this.Login.Footer.Top = Dom.Create("div", { "className":"Footer" }, this.container);
 				this.Login.Footer.BtnLanguage = Dom.Create("button", { "className":"Language" }, this.Login.Footer.Top);
 				
-				//secondo quadratino
-				/*this.Login.Footer = {};
-				this.Login.Footer.Top = Dom.Create("div", { "className":"Footer" }, this.container);
-				this.Login.Footer.BtnLanguage = Dom.Create("button", { "className":"Language" }, this.Login.Footer.Top);*/
-								
-				
 				this.Login.Inner.Message.innerHTML = Lang.Nls("Main_LoginMessage_1");
 				this.Login.Inner.Beta.innerHTML = Lang.Nls("Main_LoginMessage_4");
 				this.Login.Inner.Buttons.BtnGo.innerHTML = Lang.Nls("Main_BtnGo");
 				this.Login.Footer.BtnLanguage.innerHTML = Lang.Nls("Main_ButtonLanguage");
-				//this.Login.Footer2.BtnLanguage2.innerHTML2 = Lang.Nls("Main_ButtonLanguage");
-			
+				
 				this.Login.Inner.About.innerHTML = Lang.Nls("Main_LoginLink_About");
 				this.Login.Inner.Terms.innerHTML = Lang.Nls("Main_LoginLink_Terms");
-			
+				
 				this.Login.Inner.Buttons.BtnLog.addEventListener("click", this.BtnLog_OnClick.bind(this), false);
 				this.Login.Inner.Buttons.BtnGo.addEventListener("click", this.BtnGo_OnClick.bind(this), false);
-				this.Login.Footer.BtnLanguage.addEventListener("click", this.BtnLanguage_OnClick.bind(this), false);
-				//this.Login.Footer2.BtnLanguage2.addEventListener2("click", this.BtnLanguage2_OnClick.bind(this), false);
-				
+				this.Login.Footer.BtnLanguage.addEventListener("click", this.BtnLanguage_OnClick.bind(this), false);				
 				
 				this.Login.Inner.About.addEventListener("click", this.onLnkPopup_Click.bind(this, this.popups.About));
 				this.Login.Inner.Terms.addEventListener("click", this.onLnkPopup_Click.bind(this, this.popups.Terms));
@@ -113,21 +104,21 @@ r.define(["Api/util/lang",
 				else this.controller.Login();		
 			},
 			
-			BtnLanguage_OnClick : function(e) {
-				//var lang = (Lang.locale == "en") ? "it" : "en" ;
-				
-				/*var lang = null; //funge!
-				if (Lang.locale === "en") { lang = "it" }
-				else { lang = "en" };*/
-				
-				var lang = null;
-				if (Lang.locale === "en" ) {lang = "it"}
-				else if  (Lang.locale === "it") {lang = "fr"}
-				else {lang = "en"};
-				
+			/*BtnLanguage_OnClick : function(e) {
+				var lang = (Lang.locale == "en") ? "it" : "en" ;
 				
 				window.open(location.origin + location.pathname + "?locale=" + lang, "_self");
-			},    
+			},*/
+	
+			
+			BtnLanguage_OnClick : function(e) {
+				var lang = null;
+                if (Lang.locale === "en") {lang = "it"}
+				else if (Lang.locale === "it") {lang = "fr"}
+			    else {lang = "en"};
+				
+				window.open(location.origin + location.pathname + "?locale=" + lang, "_self");
+			},
 			
 			
 			DoLogin : function() {

@@ -81,8 +81,9 @@ r.define(["Api/util/lang",
 				this.Settings.LnkLanguage = this.BuildLink("language", "Settings_LnkLanguage");
 				this.Settings.LnkLanguage.addEventListener("click", this.onBtnLanguage_Click.bind(this));
 				
-				this.Settings.LnkContact = this.BuildLink("contact", "Settings_LnkContact");
-				this.Settings.LnkContact.href = "mailto:" + this.controller.model.Contact + "?subject=" + Lang.Nls("Settings_Subject_Comment");
+				
+				//this.Settings.LnkContact = this.BuildLink("contact", "Settings_LnkContact");
+				//this.Settings.LnkContact.href = "mailto:" + this.controller.model.Contact + "?subject=" + Lang.Nls("Settings_Subject_Comment");
 			},
 			
 			BuildLabel : function(type, className, pNode, innerHTML) {		
@@ -103,16 +104,22 @@ r.define(["Api/util/lang",
 				return link;
 			},     				  
 			
+	
+			
+			/*onBtnLanguage_Click : function(e) {
+				var lang = (Lang.locale == "en") ? "it" : "en" ;
+				
+				window.open(location.origin + location.pathname + "?locale=" + lang, "_self");
+			},*/
 			
 			onBtnLanguage_Click : function(e) {
 				var lang = null;
-				if (Lang.locale === "en" ) {lang = "it"}
-				else if  (Lang.locale === "it") {lang = "fr"}
-				else {lang = "en"};
+                if (Lang.locale === "en") {lang = "it"}
+				else if (Lang.locale === "it") {lang = "fr"}
+			    else {lang = "en"};
 				
 				window.open(location.origin + location.pathname + "?locale=" + lang, "_self");
 			},
-			
 			
 			
 			onLnkPopup_Click : function(popup, ev) {

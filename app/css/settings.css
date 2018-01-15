@@ -118,6 +118,10 @@
 	background-image: url(../assets/tutorial/m4.jpg);
 }
 
+.Tutorial .Image.Five {
+	background-image: url(../assets/tutorial/m5.jpg);
+}
+
 .Tutorial.Popup .Body .Note {
 	width : 50%;
 	text-align: justify;

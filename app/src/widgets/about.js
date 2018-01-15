@@ -25,10 +25,10 @@ r.define(["Api/util/lang",
 				this.BuildLabel("h4", null, this.nodes.Body, Lang.Nls("Settings_About_Note8"));
 				this.BuildLabel("p", null, this.nodes.Body, Lang.Nls("Settings_About_Note9"));
 				this.BuildLabel("p", null, this.nodes.Body, Lang.Nls("Settings_About_Note10"));
-				this.BuildLabel("h4", null, this.nodes.Body, Lang.Nls("Settings_About_Note11"));
-				this.BuildLabel("p", null, this.nodes.Body, Lang.Nls("Settings_About_Note12"));
-				this.BuildLabel("p", null, this.nodes.Body, Lang.Nls("Settings_About_Note13"));
-				this.BuildLabel("p", null, this.nodes.Body, Lang.Nls("Settings_About_Note14"));
+				//this.BuildLabel("h4", null, this.nodes.Body, Lang.Nls("Settings_About_Note11"));
+				//this.BuildLabel("p", null, this.nodes.Body, Lang.Nls("Settings_About_Note12"));
+				//this.BuildLabel("p", null, this.nodes.Body, Lang.Nls("Settings_About_Note13"));
+				//this.BuildLabel("p", null, this.nodes.Body, Lang.Nls("Settings_About_Note14"));
 				this.BuildLabel("p", null, this.nodes.Body, Lang.Nls("Settings_About_Note15"));
 			},
 			

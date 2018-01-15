@@ -8,5 +8,7 @@
 	"university"                : { "fr" : "Université", "it" : "Università", "en" : "University" },
 	"construction"              : { "fr" : "Construction ", "it" : "In Construzione", "en" : "Construction" },
 	"religious"                 : { "fr" : "Religieux", "it" : "Religioso", "en" : "Religious" },
-	"public"                    : { "fr" : "Public", "it" : "Servizio Pubblico", "en" : "Public" }
+	"multiple"                  : { "fr" : "Multiple", "it" : "Multiplo", "en" : "Multiple" },
+	"public"                    : { "fr" : "Public", "it" : "Servizio Pubblico", "en" : "Public" },
+	"yes"                       : { "fr" : "Oui", "it" : "Sì", "en" : "Yes" }
 }

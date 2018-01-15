@@ -96,10 +96,6 @@ r.define(["Api/util/lang",
 				
 				/*var p = (this.model.Mode === "POI") ? Overpass.IdentifyPOI(xy, radius) : Overpass.IdentifyBuilding(xy, radius);*/
 				
-			    /*if (var p = (this.model.Mode === "POI")) this.Overpass.IdentifyPOI(xy, radius);
-                else if (this.Overpass.IdentifyBuilding(xy, radius));
-			    else (this.Overpass.IdentifyLanduse(xy, radius));*/
-				
 				var p = null;
 				if (this.model.Mode === "POI")  { p = Overpass.IdentifyPOI(xy, radius)}
 				else if (this.model.Mode === "Building") { p = Overpass.IdentifyBuilding(xy, radius)}

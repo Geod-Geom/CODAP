@@ -19,11 +19,11 @@
 	"contact" : "statcan.crowdsourceapprocheparticipative.statcan@canada.ca",
 	"version" : "0.1",
 	"view" : { 
-		"center" : [-8425605, 5692012], 
-		"zoom"	 : 14, 
+		"center" : [1398520, 5146000], 
+		"zoom"	 : 11, 
 		"minZoom": 11, 
 		"maxZoom": 21,
-		"extent" : [-8507412.069405112, 5619990.346562406, -8343204.965645563, 5756680.1201392915]
+		"extent" : [1333271.9751211184, 5119603.129856712, 1437684.9557585286, 5170204.442581431]
 	},
 	
 	"tolerance" : 20

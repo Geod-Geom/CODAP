@@ -34,6 +34,13 @@ r.define(["Api/util/lang",
 				
 				var row = Dom.Create("div", { "className":"Row" }, this.nodes.Body);
 				this.BuildLabel("p", "Note Full", row, Lang.Nls("Settings_Tutorial_Note6"));
+				
+				var row = Dom.Create("div", { "className":"Row" }, this.nodes.Body);
+				this.BuildLabel("p", "Note Left", row, Lang.Nls("Settings_Tutorial_Note7"));
+				Dom.Create("div", { "className":"Image Five" }, row);
+				
+				//var row = Dom.Create("div", { "className":"Row" }, this.nodes.Body);
+				//this.BuildLabel("p", "Note Full", row, Lang.Nls("Settings_Tutorial_Note7"));
 			},
 			
 			BuildLabel : function(type, className, pNode, innerHTML) {		

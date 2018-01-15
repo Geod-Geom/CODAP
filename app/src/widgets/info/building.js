@@ -37,18 +37,13 @@ r.define(["Api/util/lang",
 				wdgt.LblAccess = this.AddLabel("Accessible", Lang.Nls("Building_LabelAccess"));
 				wdgt.CbxAccess = this.AddCombox("wheelchair", "Access", Dom_Access);
 				
-				wdgt.LblBuilding = this.AddLabel("Planned Use", Lang.Nls("Building_LabelPlanned"));
-				wdgt.CbxBuilding = this.AddCombox("building", "Building", Dom_Building);
-				wdgt.CbxBuilding = this.AddCombox("building", "Building", Dom_Building);
-				wdgt.CbxBuilding = this.AddCombox("building", "Building", Dom_Building);
-					
 				wdgt.LblBuilding = this.AddLabel("Use Restrictions", Lang.Nls("Building_LabelUse"));
 				wdgt.LblBuilding = this.AddCombox("use", "Use", Dom_Use); 
 				
 				wdgt.LblBuilding = this.AddLabel("Effective Use", Lang.Nls("Building_LabelEffectiveUse"));
 				wdgt.CbxBuilding = this.AddCombox("building", "Building", Dom_Building);
-				wdgt.CbxBuilding = this.AddCombox("building", "Building", Dom_Building);
-				wdgt.CbxBuilding = this.AddCombox("building", "Building", Dom_Building);
+				
+				wdgt.IptDescr = this.AddInput("note", "Description", Lang.Nls("Building_PH_Descr"));
 				
 				return wdgt;
 			}

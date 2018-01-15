@@ -16,7 +16,7 @@
 	},
 	"brewing_supplies": {
 	    "fr": "ingrédients de brassage",
-		"it": "fornitura per birra e vini",
+		"it": "fornitura per birra e vino",
 		"en": "brewing supplies"
 	},
 	"butcher": {
@@ -76,7 +76,7 @@
 	},
 	"organic": {
 	    "fr": "organique",
-		"it": "organique",
+		"it": "biologico",
 		"en": "organic"
 	},
 	"pasta": {
@@ -311,7 +311,7 @@
 	},
 	"fireplace": {
 	    "fr": "foyer",
-		"it": "foyer",
+		"it": "negozio di caminetti",
 		"en": "fireplace"
 	},
 	"florist": {
@@ -336,7 +336,7 @@
 	},
 	"glaziery": {
 	    "fr": "vitrages",
-		"it": "vitraio",
+		"it": "vetraio",
 		"en": "glaziery"
 	},
 	"hardware": {

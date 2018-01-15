@@ -21,7 +21,7 @@
 	},
 	"drinking_water": {
 	    "fr": "eau à boire",	    
-		"it": "punti d'acqua",
+		"it": "punti d'acqua potabile",
 		"en": "drinking water"
 	},
 	"fast_food": {
@@ -56,7 +56,7 @@
 	},
 	"kindergarten": {
 	    "fr": "prématernelle",
-		"it": "scuola materna",
+		"it": "scuola dell'infanzia",
 		"en": "kindergarten"
 	},
 	"library": {
@@ -186,7 +186,7 @@
 	},
 	"atm": {
 	    "fr": "atm",
-		"it": "bancomat",
+		"it": "atm",
 		"en": "atm"
 	},
 	"bank": {
@@ -384,16 +384,6 @@
 		"it": "vigili del fuoco",
 		"en": "fire_station"
 	},
-	"firepit": {
-	    "fr": "pit à feu",
-		"it": "pit à feu",
-		"en": "firepit"
-	},
-	"game_feeding": {
-	    "fr": "game feeding",
-		"it": "game feeding",
-		"en": "game feeding"
-	},
 	"grave_yard": {
 	    "fr": "cimetière",
 		"it": "cimitero",
@@ -404,11 +394,7 @@
 		"it": "palestra",
 		"en": "gym"
 	},
-	"hunting_stand": {
-	    "fr": "cache de chasse",
-		"it": "cache de chasse",
-		"en": "hunting stand"
-	},
+
 	"internet_cafe": {
 	    "fr": "café internet",
 		"it": "internet caffè",
